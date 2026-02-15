@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 15px 30px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url(images/image1.jpg);
+    background-position: center;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38b2ac;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #2c7a7b;
+}
+
+.highlights,
+.destination-grid {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.highlight-grid,
+.destination-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.highlight,
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+}
+
+.highlight img,
+.destination-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #2c7a7b;
+    color: white;
+}
+
+.news-section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.news-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #38b2ac;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.news-card h3 {
+    margin-top: 0;
+}
+
+.date {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
